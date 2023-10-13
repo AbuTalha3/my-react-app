@@ -6,6 +6,7 @@
 
 body {
   height: 100vh;
+  background-color: rgb(237, 58, 84);
 }
 
 .mainNavbar {
@@ -13,14 +14,15 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  background-color: rgb(220, 46, 66);
 }
 
 .mainNavbar img {
-  width: 40px;
+  width: 40px;  
 }
 
 .mainContainer {
-  padding: 10px;
+  padding: 10px;  
 }
 
 .mainContainer h3 {
@@ -50,4 +52,5 @@ width: 150px;
 
 .searchBar input {
   padding: 5px;
+  background-color: rgb(245, 240, 240);  
 }

@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { fetchMeals } from './Redux/meal';
 import Navbar from './component/Navbar';
 import Meals from './component/Meals';
+import MealInfo from './component/MealInfo';
 
 function App() {
   const dispatch = useDispatch();
@@ -16,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Meals />} />
-
+        <Route path="/meal/:mealId" element={<MealInfo />} />
       </Routes>
     </div>
   );
