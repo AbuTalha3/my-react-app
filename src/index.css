@@ -10,7 +10,7 @@
 body {
   height: 100vh;
   background-color: rgb(237, 58, 84);
-  font-family: 'Gill Sans', Lato;
+  font-family: 'Lato', sans-serif;
 }
 
 .mainNavbar {
@@ -19,15 +19,15 @@ body {
   align-items: center;
   gap: 5px;
   background-color: rgb(220, 46, 66);
-  font-family: 'Gill Sans', Lato;
+  font-family: 'Lato', sans-serif;
 }
 
 .mainNavbar img {
-  width: 40px;  
+  width: 40px;
 }
 
 .mainContainer {
-  padding: 10px;  
+  padding: 10px;
 }
 
 .mainContainer h3 {
@@ -45,7 +45,7 @@ body {
 }
 
 .mealsContainer img {
-width: 150px;
+  width: 150px;
 }
 
 .searchBar {
@@ -57,7 +57,7 @@ width: 150px;
 
 .searchBar input {
   padding: 5px;
-  background-color: rgb(245, 240, 240);  
+  background-color: rgb(245, 240, 240);
 }
 
 .backArrow svg {
