@@ -64,3 +64,12 @@ width: 150px;
   width: 25px;
   height: 25px;
 }
+
+.mealDetails {
+  padding-left: 15px;
+}
+
+.mealDetails p {
+  color: rgb(3, 3, 3);
+  font-size: 1.3rem;
+}
