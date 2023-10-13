@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navigation() {
   return (
     <>
-      <header>
+      <header className="backArrow">
         <Link to="/"><HiOutlineArrowCircleLeft /></Link>
       </header>
     </>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Gill+Sans');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +10,7 @@
 body {
   height: 100vh;
   background-color: rgb(237, 58, 84);
+  font-family: 'Gill Sans', Lato;
 }
 
 .mainNavbar {
@@ -15,6 +19,7 @@ body {
   align-items: center;
   gap: 5px;
   background-color: rgb(220, 46, 66);
+  font-family: 'Gill Sans', Lato;
 }
 
 .mainNavbar img {
@@ -53,4 +58,9 @@ width: 150px;
 .searchBar input {
   padding: 5px;
   background-color: rgb(245, 240, 240);  
+}
+
+.backArrow svg {
+  width: 25px;
+  height: 25px;
 }
