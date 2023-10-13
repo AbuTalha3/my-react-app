@@ -18,3 +18,36 @@ body {
 .mainNavbar img {
   width: 40px;
 }
+
+.mainContainer {
+  padding: 10px;
+}
+
+.mainContainer h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.detailMeals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  grid-row-gap: 20px;
+}
+
+.mealsContainer img {
+width: 150px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.searchBar input {
+  padding: 5px;
+}

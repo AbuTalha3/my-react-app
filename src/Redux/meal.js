@@ -8,8 +8,8 @@ const initialState = {
 };
 
 export const fetchMeals = createAsyncThunk('meals/fetchMeals', async () => {
-  const response = await axios('www.themealdb.com/api/json/v1/1/categories.php');
-  return response.data.meals;
+  const response = await axios('https://www.themealdb.com/api/json/v1/1/categories.php');
+  return response.data.categories;
 });
 const mealsSlice = createSlice({
   name: 'meals',
