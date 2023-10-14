@@ -13,13 +13,13 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Deployment](#deployment)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Run tests](#run-tests)  
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -57,11 +57,18 @@
 
 >
 
-- [Live Demo](#)
+- [Live Demo](https://feature-initial-setup--comfy-cassata-655975.netlify.app/)
+
 
 <!-- GETTING STARTED -->
+## 🚀 Live Video Link <a name="Video-Link"></a>
 
 >
+
+- [Live Video Link](https://www.loom.com/share/9c0aff3b8d664afc903a86793f98dad8)
+
+>
+
 
 # Getting Started with Create React App
 
@@ -96,14 +103,6 @@ To run test coverages, run the following command:
 
 ```sh
   npm test
-```
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-   npm start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,7 +153,7 @@ If you have any suggestions or questions, you can contact me with [Abu Talha](ht
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for sharing their provision of oppertunity.
+I would like to thank Microverse for sharing their provision of oppertunity.This replica was originally designed by Nelson Sakwa in Behance, I am thankful to the author of this design.
 
 <!-- LICENSE -->
 
