@@ -9,7 +9,6 @@
 
 body {
   height: 100vh;
-  background-color: rgb(237, 58, 84);
   font-family: 'Lato', sans-serif;
 }
 
@@ -26,33 +25,53 @@ body {
   width: 40px;
 }
 
-.mainContainer {
-  padding: 10px;
-}
-
 .mainContainer h3 {
   text-align: center;
-  margin: 10px 0;
+  padding: 10px 0;
+  background-color: rgb(220, 46, 66);
 }
 
 .detailMeals {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-content: center;
   justify-items: center;
   text-align: center;
-  grid-row-gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .mealsContainer img {
   width: 150px;
 }
 
+.cardContainer {
+  width: 50%;
+}
+
+.detailMeals :nth-child(4n+1) {
+  background-color: rgb(220, 46, 66);
+  opacity: 0.9;
+}
+
+.detailMeals :nth-child(4n+3) {
+  background-color: rgb(220, 46, 66);
+}
+
+.detailMeals :nth-child(4n+4) {
+  background-color: rgb(220, 46, 66);
+  opacity: 0.9;
+}
+
+.detailMeals :nth-child(4n+2) {
+  background-color: rgb(220, 46, 66);
+}
+
 .searchBar {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px 0;
+  padding: 15px 0;
+  background-color: rgb(220, 46, 66);
 }
 
 .searchBar input {

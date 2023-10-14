@@ -27,12 +27,14 @@ function Meals() {
         {meals
           .filter((meal) => meal.strCategory.toLowerCase().includes(search.toLowerCase()))
           .map((meal) => (
-            <Link to={`/meals/${meal.idCategory}`} key={meal.idCategory}>
-              <div className="mealsContainer" key={meal.idCategory}>
-                <img src={meal.strCategoryThumb} alt="food" />
-                <h2>{meal.strCategory}</h2>
-              </div>
-            </Link>
+            <div key={meal.idCategory} className="cardContainer">
+              <Link to={`/meals/${meal.idCategory}`}>
+                <div className="mealsContainer" key={meal.idCategory}>
+                  <img src={meal.strCategoryThumb} alt="food" />
+                  <h2>{meal.strCategory}</h2>
+                </div>
+              </Link>
+            </div>
           ))}
       </div>
     </div>
